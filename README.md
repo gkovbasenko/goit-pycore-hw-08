@@ -1,8 +1,8 @@
-# goit-pycore-hw-07
+# goit-pycore-hw-08
 
-Advanced address book with birthdays, CLI commands, and comprehensive unit tests.
+Advanced address book with birthdays, CLI commands, object serialization (pickle), and comprehensive unit tests.
 
-Built on OOP entities: `Field`, `Name`, `Phone`, `Birthday`, `Record`, and `AddressBook` with a command-line interface.
+Built on OOP entities: `Field`, `Name`, `Phone`, `Birthday`, `Record`, and `AddressBook` with a command-line interface and support for pickle serialization.
 
 ## Instructions
 
@@ -10,7 +10,7 @@ Built on OOP entities: `Field`, `Name`, `Phone`, `Birthday`, `Record`, and `Addr
 
 ```bash
 # Enter the project directory
-cd goit-pycore-hw-07
+cd goit-pycore-hw-08
 
 # Create virtual environment
 python3 -m venv .venv
@@ -24,7 +24,7 @@ pip install -e ".[dev]"
 
 ```bash
 # Start the CLI assistant
-python3 -m hw07.main
+python3 -m hw08
 ```
 
 ### Run Tests
